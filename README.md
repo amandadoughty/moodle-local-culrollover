@@ -2,6 +2,12 @@ Introduction
 ============
 The CUL Rollover tool has been built to meet the specific requirements of City, University of London. Many of the options available in Moodles core back up and restore pages have been stripped out of our GUI and defaults used. For this reason, it may not be flexible enough to suit the neeeds of other institutions.
 
+The rollovers are queued and then processed by a scheduled task.
+
+When installed the tool is accessed via the url: /local/culrollover/
+
+We have added the url as a custom menu item in our theme.
+
 How Rollover Works
 ===================
 
@@ -80,4 +86,5 @@ Merge
 =====
 
 All source content is copied to relevant section and number of sections is updated.
+
 
