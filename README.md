@@ -88,3 +88,13 @@ Merge
 All source content is copied to relevant section and number of sections is updated.
 
 
+TODO
+====
+
+Convert sql REGEXP to use cross database REGEXP:
+
+// Some differences in SQL syntax.
+if ($DB->sql_regex_supported()) {
+    $REGEXP    = $DB->sql_regex(true);
+    $NOTREGEXP = $DB->sql_regex(false);
+}
